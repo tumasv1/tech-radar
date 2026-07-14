@@ -3,3 +3,4 @@ build/
 .next/
 .techradar/
 .DS_Store
+.preview-root/

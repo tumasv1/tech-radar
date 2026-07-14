@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "techradar build",
+    "build": "techradar build && mkdir -p .preview-root && ln -sfn ../build .preview-root/tech-radar",
     "serve": "techradar serve",
-    "view": "python3 -m http.server 8301 -d build & sleep 1 && open http://localhost:8301; wait"
+    "view": "mkdir -p .preview-root && ln -sfn ../build .preview-root/tech-radar && (python3 -m http.server 8301 -d .preview-root &) && sleep 1 && open http://localhost:8301/tech-radar/"
   },
   "dependencies": {
     "aoe_technology_radar": "^4"

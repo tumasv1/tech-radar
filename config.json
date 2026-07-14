@@ -1,6 +1,6 @@
 {
-  "basePath": "/",
-  "baseUrl": "http://localhost:3000",
+  "basePath": "/tech-radar",
+  "baseUrl": "https://tumasv1.github.io/tech-radar",
   "companyName": "Михаил Тумасов",
   "logoFile": "logo.svg",
   "toggles": {

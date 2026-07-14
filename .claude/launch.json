@@ -4,7 +4,7 @@
     {
       "name": "radar-aoe",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8301", "-d", "/Users/mikhail/Projects/tech-radar/build"],
+      "runtimeArgs": ["-m", "http.server", "8301", "-d", "/Users/mikhail/Projects/tech-radar/.preview-root"],
       "port": 8301
     }
   ]

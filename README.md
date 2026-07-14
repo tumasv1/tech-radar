@@ -42,11 +42,17 @@ npm run build   # → ./build
 npm run view    # поднимает сервер на :8301 и сразу открывает страницу в браузере
 ```
 
-`npm run view` — обёртка над `python3 -m http.server 8301 -d build`, которая ждёт
-запуска сервера и сама открывает `http://localhost:8301` (macOS `open`). Остановить —
-`Ctrl+C` в том же терминале. Если порт 8301 занят — сначала `pkill -f "http.server 8301"`.
+`npm run view` — раскладывает `build/` в `/tmp/tech-radar-preview/tech-radar/` (сайт
+живёт под `basePath: /tech-radar`, как на GitHub Pages), поднимает сервер на :8301 и
+сама открывает `http://localhost:8301/tech-radar/` (macOS `open`). Сервер уходит в
+фон — остановить: `pkill -f "http.server 8301"`.
 
-Конфиг квадрантов/колец/подписей — `config.json`, страница «О радаре» — `about.md`.
+Публикуется на **GitHub Pages** — автодеплой через `.github/workflows/deploy-pages.yml`
+при каждом `git push` в `main` (ничего вручную запускать не нужно). Live:
+https://tumasv1.github.io/tech-radar/
+
+Конфиг квадрантов/колец/подписей — `config.json` (там же `basePath`/`baseUrl` под
+GitHub Pages — не менять без необходимости), страница «О радаре» — `about.md`.
 
 ## Типовые операции
 
