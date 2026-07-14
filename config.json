@@ -1,0 +1,99 @@
+{
+  "basePath": "/",
+  "baseUrl": "http://localhost:3000",
+  "companyName": "Михаил Тумасов",
+  "logoFile": "logo.svg",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false,
+    "showSearch": true
+  },
+  "quadrants": [
+    {
+      "id": "ai-ml",
+      "title": "AI / ML",
+      "description": "Всё модельное и retrieval: RAG, агенты, оценка LLM, голосовые пайплайны, ML-техники и фреймворки.",
+      "color": "#4f79ff"
+    },
+    {
+      "id": "infra-data",
+      "title": "Инфраструктура и данные",
+      "description": "Эксплуатация и хранение: базы данных, векторные хранилища, self-host, observability, очереди, LLM-инфраструктура.",
+      "color": "#ffb74f"
+    },
+    {
+      "id": "development",
+      "title": "Разработка",
+      "description": "Языки, фреймворки и инструменты написания кода: Python-стек, тесты, сборка, CI.",
+      "color": "#47a76a"
+    },
+    {
+      "id": "product-management",
+      "title": "Продукт и управление",
+      "description": "AI-продукт, управление командой и процессами, аналитика и enterprise-системы.",
+      "color": "#c95bd1"
+    }
+  ],
+  "rings": [
+    {
+      "id": "confident",
+      "title": "Владею",
+      "description": "Уверенно применяю в проектах, могу объяснить устройство и показать результаты с метриками.",
+      "color": "#2e7d32",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "using",
+      "title": "Использую",
+      "description": "Рабочий уровень: применяю в проектах или активно изучаю прямо сейчас.",
+      "color": "#f9a825",
+      "radius": 0.75,
+      "strokeWidth": 3
+    },
+    {
+      "id": "wishlist",
+      "title": "ХОЧУ",
+      "description": "На прицеле: технологии, с которыми планирую познакомиться. Радар как напоминание.",
+      "color": "#9e9e9e",
+      "radius": 1,
+      "strokeWidth": 1
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#e53935",
+      "title": "Новое",
+      "titleShort": "Нов."
+    },
+    "changed": {
+      "color": "#1e88e5",
+      "title": "Изменилось",
+      "titleShort": "Изм."
+    },
+    "default": {
+      "color": "#616161",
+      "title": "Без изменений",
+      "titleShort": ""
+    }
+  },
+  "labels": {
+    "title": "AI-радар Михаила Тумасова",
+    "imprint": "",
+    "privacy": "",
+    "quadrant": "Квадрант",
+    "ring": "Кольцо",
+    "quadrantOverview": "Обзор квадрантов",
+    "zoomIn": "Приблизить",
+    "filterByTag": "Фильтр по тегам",
+    "footer": "Личный технологический радар: чем владею, что использую, что изучаю и что держу на прицеле.",
+    "notUpdated": "Не обновлялось в этом релизе",
+    "notFound": "Ничего не найдено",
+    "pageAbout": "О радаре",
+    "pageOverview": "Обзор",
+    "pageSearch": "Поиск",
+    "searchPlaceholder": "Поиск технологии…"
+  }
+}

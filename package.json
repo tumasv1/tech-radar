@@ -1,0 +1,13 @@
+{
+  "name": "mikhail-tech-radar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "techradar build",
+    "serve": "techradar serve",
+    "view": "python3 -m http.server 8301 -d build & sleep 1 && open http://localhost:8301; wait"
+  },
+  "dependencies": {
+    "aoe_technology_radar": "^4"
+  }
+}
