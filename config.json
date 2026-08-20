@@ -66,17 +66,20 @@
     "new": {
       "color": "#e53935",
       "title": "Новое",
-      "titleShort": "Нов."
+      "titleShort": "Нов.",
+      "description": "Новое в этом релизе"
     },
     "changed": {
       "color": "#1e88e5",
       "title": "Изменилось",
-      "titleShort": "Изм."
+      "titleShort": "Изм.",
+      "description": "Изменилось в этом релизе"
     },
     "default": {
       "color": "#616161",
       "title": "Без изменений",
-      "titleShort": ""
+      "titleShort": "",
+      "description": "Без изменений в этом релизе"
     }
   },
   "labels": {
